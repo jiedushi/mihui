@@ -1,0 +1,15 @@
+<div class="m-index">
+  <div class="m-index-content"></div>
+  <footer>
+      <ul>
+
+          <li action-type="switch" data-tag="chance"><img src="images/imaIndex/index1_normal.png"/><i>首页</i></li>
+          <li action-type="switch" data-tag="story"><img src="images/imaIndex/index2_normal.png"/><i>物语</i></li>
+          <li action-type="switch" data-tag="cart"><img src="images/imaIndex/index3_normal.png"/><i>购物篮</i></li>
+          <li action-type="switch" data-tag="my"><img src="images/imaIndex/index4_normal.png"/><i>我的</i></li>
+
+      </ul>
+
+  </footer>
+
+</div>

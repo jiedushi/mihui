@@ -1,0 +1,74 @@
+<div  class="header-story">
+    <i>物语</i>
+
+</div>
+<div  class="section-story" spa-widget="scroll">
+    <div class="story-container">
+
+      <dl>
+          <dt><img src="images/imgStory/story1.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+
+
+      <dl>
+          <dt><img src="images/imgStory/story2.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl>
+          <dt><img src="images/imgStory/story4.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl>
+          <dt><img src="images/imgStory/story3.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl>
+          <dt><img src="images/imgStory/story3.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+      <dl>
+          <dt><img src="images/imgStory/story3.png"  /></dt>
+          <dd>
+            <ul>
+                <li><img src="images/imgStory/subject_view_count.png" alt="" /><span>796</span></li>
+                <li><img src="images/imgStory/subject_un_ding.png" alt="" /><span>31</span></li>
+                <li><img src="images/imgStory/subject_un_share.png" alt="" /><span>13</span></li>
+            </ul>
+          </dd>
+      </dl>
+
+    </div>
+
+
+</div>

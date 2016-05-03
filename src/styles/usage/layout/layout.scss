@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Import
+@import "../core/reset";
+
+// Config
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    @include flexbox(flex);
+    @include flex-direction(column);
+}

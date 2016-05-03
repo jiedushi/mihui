@@ -1,0 +1,13 @@
+require('lib/iscroll.js');
+require('lib/spa.min.js');
+require('lib/swiper.min.js');
+require('views/test.js');
+require('views/chance.js');
+require('views/story.js');
+require('views/shopping_cart.js');
+require('views/my.js');
+require('views/login.js');
+require('views/register.js');
+require('views/collect.js');
+require('views/exit.js');
+require('views/index.js');

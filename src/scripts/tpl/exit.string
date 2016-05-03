@@ -1,0 +1,20 @@
+<header class="header-login header-exit">
+    <div  action-type="tap.back"><img src="images/imgLogin/back.png" /></div>
+    <h3>登录</h3>
+    <div ><span></span></div>
+
+
+</header>
+
+<section class="section-exit">
+    <ul>
+      <li><i>蜜惠昵称</i><font><img src="images/imgMy/right_arrow.png" alt=""></font></li>
+      <li><i>上传头像</i><font><img src="images/imgMy/right_arrow.png" alt=""></font></li>
+      <li><i>修改密码</i><font><img src="images/imgMy/right_arrow.png" alt=""></font></li>
+    </ul>
+    <ul>
+      <li><i>清空缓存</i><font><img src="images/imgMy/right_arrow.png" alt=""></font></li>
+      <li><i>检测更新</i><font><img src="images/imgMy/right_arrow.png" alt=""></font></li>
+    </ul>
+    <button type="button">退出当前账号</button>
+</section>

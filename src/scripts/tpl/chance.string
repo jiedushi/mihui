@@ -1,0 +1,175 @@
+<header class="header-chance">
+  <div>
+    <img src="images/imaIndex/qrcode.png" />
+  </div>
+  <div><span>蜜惠</span></div>
+  <div><img src="images/imaIndex/home_search.png" /></div>
+</header>
+<nav class="nav-chance">
+    <ul>
+        <li class="active"  action-type="tap.swiper"><span>全部</span></li>
+        <li action-type="tap.swiper"><span>健康</span></li>
+        <li action-type="tap.swiper"><span>美妆</span></li>
+        <li action-type="tap.swiper"><span>个户</span></li>
+        <li action-type="tap.swiper"><span>日用</span></li>
+        <li action-type="tap.swiper"><span>食品</span></li>
+
+
+    </ul>
+</nav>
+<section  class="section-chance">
+    <div class="swiper-container tab-container">
+        <div class="swiper-wrapper tab-wrapper">
+          <div class="swiper-slide tab-slide"  spa-widget="scroll">
+
+              <div class="section-container">
+                  <div class="swiper-container swi-container section-swi">
+                    <div class="swiper-wrapper swi-wrapper">
+                        <div class="swiper-slide swi-slide"><img src="images/imaIndex/banner1.png"></div>
+                        <div class="swiper-slide swi-slide"><img src="images/imaIndex/banner2.png"></div>
+                        <div class="swiper-slide swi-slide"><img src="images/imaIndex/story1.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                  <div class="nav-lis">
+                    <ul>
+                      <li><img src="images/imaIndex/new_user_gift.png"><i>新人有礼</i></li>
+                      <li><img src="images/imaIndex/daily_point.png"><i>每日积分</i></li>
+                      <li><img src="images/imaIndex/brand_street.png"><i>品牌街</i></li>
+                      <li><img src="images/imaIndex/janpan_post.png"><i>日本直邮</i></li>
+                    </ul>
+
+
+                  </div>
+                  <div class="special-lis">
+                    <div class="special-left"><img src="images/imaIndex/bla.png" /></div>
+                    <div class="special-blank"></div>
+                    <div class="special-right">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+
+                    </div>
+
+                  </div>
+                  <div class="big-img"><img src="images/imaIndex/bl1.png"/></div>
+                  <div class="touch-swiper">
+                    <div class="swiper-container swi-container  touch-swi">
+                      <div class="swiper-wrapper swi-wrapper">
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis1.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis2.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis3.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis1.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis2.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis3.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis1.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis2.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                          <div class="swiper-slide swi-slide"><dl><dt><img src="images/imaIndex/lis3.png"/></dt><dd><p>胶原蛋白“制造</p><strong><i>￥339</i><em>￥1080</em></strong></dd></dl></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                  <div class="dang-goods">
+                    <h5>热卖单品</h5>
+                    <dl><dt><img src="images/imaIndex/hua.png" /></dt><dd><p>小泉成器|足部去角质机粉</p><p>日本直邮</p></dd></dl>
+                    <dl><dt><img src="images/imaIndex/hua.png" /></dt><dd><p>小泉成器|足部去角质机粉</p><p>日本直邮</p></dd></dl>
+                    <dl><dt><img src="images/imaIndex/hua.png" /></dt><dd><p>小泉成器|足部去角质机粉</p><p>日本直邮</p></dd></dl>
+                    <dl><dt><img src="images/imaIndex/hua.png" /></dt><dd><p>小泉成器|足部去角质机粉</p><p>日本直邮</p></dd></dl>
+
+
+                  </div>
+
+                  <div class="dcount-goods">
+                      <h5>精选单品</h5>
+                      <ul>
+                        <li><dt><img src="images/imaIndex/zong.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                        <li></li>
+                        <li><dt><img src="images/imaIndex/zong.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      </ul>
+                      <ul>
+                        <li><dt><img src="images/imaIndex/zong1.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                        <li></li>
+                        <li><dt><img src="images/imaIndex/zong1.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      </ul>
+                      <ul>
+                        <li><dt><img src="images/imaIndex/zong2.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                        <li></li>
+                        <li><dt><img src="images/imaIndex/zong2.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      </ul>
+                      <ul>
+                        <li><dt><img src="images/imaIndex/zong3.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                        <li></li>
+                        <li><dt><img src="images/imaIndex/zong3.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      </ul>
+                      <ul>
+                        <li><dt><img src="images/imaIndex/zong4.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                        <li></li>
+                        <li><dt><img src="images/imaIndex/zong4.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      </ul>
+
+                  </div>
+
+
+
+
+
+              </div>
+
+
+
+
+
+          </div>
+          <div class="swiper-slide tab-slide" spa-widget="scroll">
+                  <div class="section-container" ms-each="chanceData">
+                    <ul >
+                      <li><dt><img ms-src="el.img1" /></dt><dd><p ms-text="el.name1">番茄酵酸</p><strong><i ms-text="el.price1">￥108.00</i><em ms-text="el.discount1">|5.0折</em></strong></dd></li>
+                      <li></li>
+                      <li><dt><img ms-src="el.img2" /></dt><dd><p ms-text="el.name2">番茄酵酸</p><strong><i ms-text="el.price2">￥108.00</i><em ms-text="el.discount2">|5.0折</em></strong></dd></li>
+                    </ul>
+                    <!-- <ul>
+                      <li><dt><img src="images/imaIndex/zong1.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      <li></li>
+                      <li><dt><img src="images/imaIndex/zong1.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                    </ul>
+                    <ul>
+                      <li><dt><img src="images/imaIndex/zong2.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      <li></li>
+                      <li><dt><img src="images/imaIndex/zong2.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                    </ul>
+                    <ul>
+                      <li><dt><img src="images/imaIndex/zong3.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      <li></li>
+                      <li><dt><img src="images/imaIndex/zong3.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                    </ul>
+                    <ul>
+                      <li><dt><img src="images/imaIndex/zong4.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                      <li></li>
+                      <li><dt><img src="images/imaIndex/zong4.png"/></dt><dd><p>番茄酵酸</p><strong><i>￥108.00</i><em>|5.0折</em></strong></dd></li>
+                    </ul> -->
+
+                  </div>
+
+
+
+          </div>
+          <div class="swiper-slide tab-slide" action-type="tap.deligot">slider3</div>
+          <div class="swiper-slide tab-slide" >slider1</div>
+          <div class="swiper-slide tab-slide" >slider2</div>
+          <div class="swiper-slide tab-slide" >slider3</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</section>

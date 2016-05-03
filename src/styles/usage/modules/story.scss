@@ -1,0 +1,66 @@
+.header-story{
+  width:100%;
+  height:0.4rem;
+  background-color: white;
+  @include box-sizing(border-box);
+  @include border(0 0 1px 0,rgb(158,158,158));
+    text-align: center;
+    line-height:0.4rem;
+    font-size:0.15rem;
+    color:rgb(21,21,21);
+    font-family: "微软雅黑";
+    background-color: white;
+}
+
+
+.section-story{
+  background-color: white;
+
+  @include flex(1);
+  width:100%;
+  .story-container{
+    padding-bottom: 0.44rem;
+    width:100%;
+    dl,dt,dd{
+      width:100%;
+
+      dt{
+
+        img{
+          width:100%;
+        }
+      }
+      dd{
+        height:0.35rem;
+        ul{
+          width:100%;
+          height:100%;
+          @include flexbox(flex);
+          @include flex-direction(row);
+          @include align-items(center);
+          li{
+            @include flex(1);
+            @include box-sizing(border-box);
+            height:0.14rem;
+            text-align: center;
+            line-height: 1;
+            img{
+                width:0.14rem;
+                height:0.14rem;
+            }
+            span{
+              font-size:0.12rem;
+            }
+
+          }
+          li:not(:last-child){
+            @include border(0 1px 0 0,rgb(27,27,27));
+          }
+        }
+      }
+    }
+
+  }
+
+
+}

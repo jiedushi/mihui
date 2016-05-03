@@ -1,0 +1,44 @@
+<header class="header-login">
+    <div  action-type="tap.back"><img src="images/imgLogin/back.png" /></div>
+    <h3>登录</h3>
+    <div action-type="tap.reg"><span>注册</span></div>
+
+
+</header>
+
+<section  class="section-login">
+    <p>验证手机号注册，可得88元大礼包</p>
+    <form action="">
+
+      <div>  <i>  <img src="images/imgLogin/phone.png" alt=""/></i>
+
+          <input type="text"  placeholder="请输入11位手机号码"/>
+
+      </div>
+
+      <div>
+          <i>  <img src="images/imgLogin/password.png" alt=""/></i>
+            <input type="password" placeholder="请输入密码"/>
+
+      </div>
+
+      <strong><a href="#">忘记密码</a></strong>
+      <div><button type="button">登录</button></div>
+
+
+    </form>
+
+</section>
+
+
+<footer class="footer-login">
+      <fieldset>
+          <legend>或使用合作账号登录</legend>
+          <ul>
+            <li><img src="images/imgLogin/login_qq.png"/></li>
+            <li><img src="images/imgLogin/login_sina.png"/></li>
+            <li><img src="images/imgLogin/login_wechat.png"/></li>
+          </ul>
+      </fieldset>
+
+</footer>

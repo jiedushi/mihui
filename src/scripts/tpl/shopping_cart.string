@@ -1,0 +1,70 @@
+<header  class="header-cart">
+    <i>购物篮</i>
+</header>
+<section  class="section-cart">
+  <ul class="no-lis">
+      <li><img src="images/imgCart/cart_bonded.png" alt="" /><span>100%正品保障</span></li>
+      <li><img src="images/imgCart/cart_edm.png" alt="" /><span>100%海外供应</span></li>
+      <li><img src="images/imgCart/cart_japan_direct.png" alt="" /><span>100%售后服务</span></li>
+  </ul>
+  <!-- <img src="images/imgCart/bg_cart_none.png"/>
+  <a href="#" action-type="switch" data-tag="chance">去逛逛<<</a> -->
+
+  <ul class="has-lis">
+      <li>
+        <h3>
+          <dl>
+              <dt><img src="images/imgCart/icon_check_off.png" alt=""><span>日本直邮</span></dt>
+              <dd>还差<b>251元</b>包邮</dd>
+
+          </dl>
+
+        </h3>
+
+        <div class="has-lis-div">
+          <dl>
+              <dt><img src="images/imgCart/icon_check_off.png" alt=""><img src="images/imaIndex/zong.png"></dt>
+              <dd>
+
+                <div>
+                  <p>石泽研究所KEANA毛孔抚子洗面奶去黑头去角质100g</p>
+                  <span>税率：<i>0.0</i></span>
+                  <span>规格：<i>0小号</i></span>
+                </div>
+                <div>
+                  <img src="images/imgCollect/icon_delete.png" alt=""/>
+                  <br/>
+                  <span>￥12.00</span>
+
+                </div>
+                <i><button type="button">-</button><input type="text" /><button type="button">+</button></i>
+              </dd>
+
+          </dl>
+
+        </div>
+
+
+      </li>
+
+  </ul>
+
+
+  <div class="cart-dis">
+    <dl>
+        <dt><img src="images/imgCart/icon_check_off.png" alt=""><span>全选</span></dt>
+        <dd>
+          <div>
+            <i>合计：<b>￥48.00</b></i>
+            <font>（含税<b>￥0.00元</b>）共计<em>4件</em></font>
+          </div>
+
+          <button type="button">去结算</button>
+        </dd>
+
+    </dl>
+
+  </div>
+
+
+</section>

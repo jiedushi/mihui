@@ -1,0 +1,112 @@
+<div class="header-my">
+    <div class="position-login">
+      <div class="no-login">
+        <div ><button type="button" name="button" action-type="tap.login">登录</button></div>
+
+        <div ><button type="button" name="button" action-type="tap.reg">注册</button></div>
+      </div>
+      <div class="login-after">
+          <img src="images/imgMy/my_setting.png" action-type="tap.exit" alt=""/>
+      </div>
+    </div>
+
+    <img src="images/imgMy/bg_member_out.jpg"/>
+
+
+</div>
+
+
+<nav  class="nav-my">
+    <a>
+      <dl >
+          <dt>我的订单</dt>
+
+          <dd><span>查看全部订单</span><img  src="images/imgMy/right_arrow.png"></dd>
+      </dl>
+
+    </a>
+    <div class="my-lis">
+      <ul>
+        <li action-type="switch"  data-tag="cart"><img src="images/imgMy/my_cart.png"><i>购物篮</i></li>
+        <li action-type="tap.collect" ><img src="images/imgMy/my_collection.png"><i>收藏</i></li>
+        <li><img src="images/imgMy/my_history.png"><i>浏览记录</i></li>
+        <li><img src="images/imgMy/my_addr.png"><i>地址管理</i></li>
+
+
+      </ul>
+    </div>
+
+
+    <ul>
+      <li>
+        <div><img src="images/imgMy/my_code.png"><i>我的蜜码</i></div>
+        <div>
+
+        </div>
+        <div><span>分享送红包</span><img  src="images/imgMy/right_arrow.png"></div>
+
+      </li>
+      <li>
+        <div><img src="images/imgMy/my_bonus.png"><i>红包</i></div>
+        <div>
+
+        </div>
+        <div><img  src="images/imgMy/right_arrow.png"></div>
+
+      </li>
+      <li>
+        <div><img src="images/imgMy/my_coupon.png"><i>优惠券</i></div>
+        <div>
+
+        </div>
+        <div><img  src="images/imgMy/right_arrow.png"></div>
+
+
+      </li>
+
+
+
+    </ul>
+
+
+
+    <ul>
+      <li>
+        <div><img src="images/imgMy/qa.png"><i>买前须知</i></div>
+        <div>
+
+        </div>
+        <div><span>分享送红包</span><img  src="images/imgMy/right_arrow.png"></div>
+
+      </li>
+      <li>
+        <div><img src="images/imgMy/my_about.png"><i>关于蜜惠</i></div>
+        <div>
+
+        </div>
+        <div><img  src="images/imgMy/right_arrow.png"></div>
+
+      </li>
+      <li>
+        <div><img src="images/imgMy/my_hotline.png"><i>客服支持</i></div>
+        <div>
+
+        </div>
+        <div><span>400-826-1633</span><img  src="images/imgMy/right_arrow.png"></div>
+
+
+      </li>
+
+
+
+    </ul>
+    <p>
+      客服工作时间9点-22点(平时) 9点-18点(周末与节假日)<br/>
+      大宗购买以及供应链合作请洽:<br/>
+      BD@nysochina.com;0571-28193656
+
+    </p>
+
+
+
+</nav>

@@ -1,0 +1,59 @@
+<header class="header-register header-login">
+    <div  action-type="tap.back"><img src="images/imgLogin/back.png" /></div>
+    <h3>注册</h3>
+    <div><span></span></div>
+
+
+</header>
+
+<section  class="section-register">
+
+    <form action="">
+
+      <div>  <i>  <img src="images/imgLogin/phone.png" alt=""/></i>
+
+          <input type="text"  placeholder="请输入11位手机号码"/>
+
+      </div>
+
+      <div>
+          <i>  <img src="images/imgLogin/img_code.png" alt=""/></i>
+            <input type="password" placeholder="请输入正确答案"/>
+            <p>
+
+            </p>
+
+      </div>
+      <div>
+          <i>  <img src="images/imgLogin/msg_code.png" alt=""/></i>
+            <input type="password" placeholder="请输入短信验证码"/>
+              <a href="#">发送验证码</a>
+
+      </div>
+      <div>
+          <i>  <img src="images/imgLogin/password.png" alt=""/></i>
+            <input type="password" placeholder="请输入密码(6-16位)"/>
+
+
+      </div>
+
+
+      <div><button type="button">注册</button></div>
+
+
+    </form>
+
+</section>
+
+
+<footer class="footer-login footer-register">
+      <fieldset>
+          <legend>或使用合作账号登录</legend>
+          <ul>
+            <li><img src="images/imgLogin/login_qq.png"/></li>
+            <li><img src="images/imgLogin/login_sina.png"/></li>
+            <li><img src="images/imgLogin/login_wechat.png"/></li>
+          </ul>
+      </fieldset>
+
+</footer>

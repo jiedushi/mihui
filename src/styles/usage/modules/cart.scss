@@ -1,0 +1,335 @@
+.header-cart{
+
+  width:100%;
+  height:0.4rem;
+  background-color: white;
+  @include box-sizing(border-box);
+  @include border(0 0 1px 0,rgb(158,158,158));
+    text-align: center;
+    line-height:0.4rem;
+    font-size:0.15rem;
+    color:rgb(21,21,21);
+    font-family: "微软雅黑";
+    background-color: white;
+
+
+}
+
+
+.section-cart{
+  width:100%;
+  text-align: center;
+  @include flexbox(flex);
+  @include flex-direction(column);
+  @include flex(1);
+  @include box-sizing(border-box);
+  width:100%;
+  padding-bottom: 0.52rem;
+
+
+  >img{
+      width:85%;
+      margin:0 auto;
+      margin-top: 0.65rem;
+      display: block;
+
+
+  }
+  >a{
+      font-size:0.14rem;
+      color:rgb(254,102,107);
+  }
+
+  .no-lis{
+    width:100%;
+    height:0.27rem;
+    @include flexbox(flex);
+    @include flex-direction(row);
+
+
+    li{
+        text-align: center;
+        line-height: 0.27rem;
+        @include flex(1);
+        img{
+          width:0.15rem;
+          height:0.15rem;
+        }
+        span{
+          font-size:0.12rem;
+          color:rgb(146,146,146);
+        }
+
+    }
+
+
+  }
+
+
+.has-lis{
+
+    @include flex(1);
+    width:100%;
+    background-color: white;
+
+    li{
+
+        h3{
+          @include box-sizing(border-box);
+
+          padding:0 0.09rem;
+          height:0.35rem;
+          width:100%;
+
+          dl{
+
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0,rgb(231,231,231));
+            height:100%;
+            @include flexbox(flex);
+            @include flex-direction(row);
+            @include justify-content(space-between);
+            dt{
+              @include flexbox(flex);
+              @include flex-direction(row);
+              @include align-items(center);
+              height:100%;
+              img{
+                width:0.17rem;
+                height:0.17rem;
+                margin-right: 0.11rem;
+              }
+              span{
+                font-size:0.13rem;
+                color:rgb(31,31,31);
+              }
+            }
+            dd{
+              // @include flexbox(flex);
+              // @include flex-direction(row);
+              // @include align-items(center);
+              line-height: 0.35rem;
+              font-size:0.12rem;
+              color:rgb(0,0,0);
+              height:100%;
+              b{
+                font-weight: 500;
+                color:rgb(255,69,75);
+              }
+            }
+          }
+        }
+        .has-lis-div{
+            @include box-sizing(border-box);
+            width:100%;
+            padding:0.09rem 0.09rem 0;
+            height:0.85rem;
+            @media screen and (min-width: 414px){
+                height:1rem;
+            }
+            dl{
+              height:100%;
+              @include flexbox(flex);
+              @include flex-direction(row);
+              dt{
+
+                @include flexbox(flex);
+                @include flex-direction(row);
+
+                @include align-items(center);
+                height:0.6rem;
+                >img:nth-of-type(1){
+                  width:0.17rem;
+                  height:0.17rem;
+                  margin-right: 0.11rem;
+                }
+                >img:nth-of-type(2){
+                  width:0.6rem;
+                  height:0.6rem;
+                  @include box-sizing(border-box);
+                  @include border(1px,rgb(240,240,240));
+
+                }
+              }
+              dd{
+                text-align: left;
+                @include flex(1);
+                @include flexbox(flex);
+                @include flex-direction(row);
+                position: relative;
+                height:0.67rem;
+                >div:nth-of-type(1){
+                  @include flex(1);
+                  @include box-sizing(border-box);
+                  padding-left: 0.04rem;
+                  p{
+                    margin-bottom: 0.14rem;
+                    font-size:0.14rem;
+                    line-height: 0.16rem;
+                  }
+                  span{
+                    display: inline-block;
+                    line-height: 1;
+                    vertical-align: top;
+                    color:rgb(176,176,176);
+                    font-size:12px;
+                    margin-right: 0.08rem;
+                    i{
+                      color:rgb(255,90,95);
+
+                    }
+                  }
+                }
+                >div:nth-of-type(2){
+
+                  text-align: right;
+
+                  img{
+                    width:0.20rem;
+                    height:0.20rem;
+                    margin-right: 0.04rem;
+                    margin-bottom: 0.07rem;
+
+
+                  }
+                  span{
+                    display: inline-block;
+                    color:rgb(151,151,151);
+                    font-size:0.12rem;
+                    line-height: 1;
+                    vertical-align: top;
+                  }
+
+                }
+
+                >i{
+                  position: absolute;
+                  bottom:0;
+                  right:0;
+                  display: block;
+                  @include flexbox(flex);
+                  @include flex-direction(row);
+                  @include box-sizing(border-box);
+                  right:0;
+                  width:0.77rem;
+                  height:0.24rem;
+
+                  border:1px solid rgb(223,223,223);
+                  border-radius: 3px;
+                  // @include border(0 1px 0 1px,rgb(223,223,223));
+
+                  position: absolute;
+                  button{
+                    border:none;
+                    display: block;
+                    width:0.22rem;
+                    height:0.22rem;
+                    text-align: center;
+                    background-color: white;
+                      color:rgb(255,108,102);
+                    border-radius: 3px;
+                  }
+                  input{
+                    text-align: center;
+                    @include flex(1);
+                    @include box-sizing(border-box);
+                    border-left:rgb(223,223,223);
+                    border:none;
+                    border-left:1px solid rgb(223,223,223);
+                    border-right:1px solid rgb(223,223,223);
+                    @include border(0 1px 0 1px,rgb(223,223,223));
+
+                  }
+                }
+
+              }
+            }
+
+        }
+
+
+    }
+
+
+
+}
+
+
+
+  .cart-dis{
+      @include box-sizing(border-box);
+      @include border(1px 0 1px 0,rgb(226,226,226));
+      padding:0 0.09rem;
+      height:0.52rem;
+      width:100%;
+      dl{
+        @include flexbox(flex);
+        @include flex-direction(row);
+        height:100%;
+        dt{
+
+          @include flexbox(flex);
+          @include flex-direction(row);
+          @include align-items(center);
+          height:100%;
+          img{
+            width:0.17rem;
+            height:0.17rem;
+            margin-right: 0.11rem;
+          }
+          span{
+            font-size:0.13rem;
+            color:rgb(31,31,31);
+          }
+        }
+
+        dd{
+          @include flex(1);
+          @include flexbox(flex);
+          @include flex-direction(row);
+          @include justify-content(center);
+          @include align-items(center);
+          >div{
+            @include flex(1);
+            text-align: right;
+            padding-right: 0.14rem;
+            height:0.35rem;
+            i{
+              display: block;
+              line-height: 0.2rem;
+              font-size:0.14rem;
+              color:rgb(254,104,108);
+              b{
+                font-weight: 500;
+              }
+
+            }
+            font{
+              display: inline-block;
+              line-height: 1;
+              font-size:0.12rem;
+              color:rgb(125,125,125);
+              vertical-align: top;
+              b{
+                font-weight: 500;
+              }
+            }
+
+          }
+          button{
+            width:0.76rem;
+            height:0.35rem;
+            background-color:rgb(255,90,95);
+            color:rgb(255,255,255);
+
+            border:0;
+            border-radius: 3px;
+            font-size:0.14rem;
+            // @include border(1px,rgb(255,73,79));
+
+          }
+        }
+
+      }
+  }
+}
